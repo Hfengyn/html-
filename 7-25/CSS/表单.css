@@ -1,0 +1,65 @@
+.div1{
+	margin-top: 20px;
+	position: relative;
+}
+.span1{
+	color: red;
+}
+.span2{
+	display: block;
+	width: 100px;
+	text-align: right;
+}
+.span3{
+	color: black;
+}
+.span4{
+	position: relative;
+	top: -16px;
+}
+.left{
+	position: relative;
+	margin-left: 100px;
+	top: -16px;
+
+}
+.le{
+	position: relative;
+	top: -16px;
+}
+a{
+	position: absolute;
+	top: 0px;
+	text-decoration: none;
+}
+.a1{
+	position: absolute;
+	top: 0px;
+	left: 400px;
+}
+.w{
+	width: 200px;
+}
+.a2{
+	margin-left: 50px;
+	background-color: lightgreen;
+}
+.a3{
+	margin-left: 20px;
+}
+.botton{
+	width: 50px;
+	height: 30px;
+	background-color: green;
+	color: white;
+}
+.black{
+	background-color: lightgreen;
+}
+.div2{
+	width: 200px;
+	/*height: 1px;*/
+	border-top:1px dashed lightgray;
+	position: relative;
+	left: 100px
+}

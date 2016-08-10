@@ -1,0 +1,53 @@
+body{
+	background-color: black;
+}
+.eyes{
+	perspective: 2400px;
+	perspective-origin: 300px 200px;
+}
+.box{
+	transform-style: preserve-3d;
+	/*background-color: lightgray;*/
+	width: 1220px;
+	height: 620px;
+	transform: rotateX(0deg) rotateY(0deg);
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+.box div div{
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+	float: left;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background: -webkit-radial-gradient(blue,lightblue);
+}
+.second, .third{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.first{
+	transform: translateZ(100px);
+
+}
+.third{
+	transform: translateZ(-100px);
+}
+@keyframes move{
+	from{
+		transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+	}
+	to{
+		transform: rotateY(1440deg) rotateX(1440deg) rotateZ(360deg);
+	}
+}
+.box{
+	animation: move 25s infinite;
+}

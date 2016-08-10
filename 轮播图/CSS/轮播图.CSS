@@ -1,0 +1,60 @@
+.div1{
+	width: 500px;
+	height: 500px;
+	border: 1px solid gray;
+	background-color: gray;
+	position: relative;
+}
+a .y1{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: lightgray;
+	position: absolute;
+	top: 440px;
+	z-index: 30;
+}
+a .yuan1{
+	left: 150px;
+}
+a .yuan2{
+	left: 210px;
+}
+a .yuan3{
+	left: 270px;
+}
+a .t1{
+	width: 480px;
+	height: 480px;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: none;
+}
+a .tu1{
+	background-color: yellow;
+}
+a .tu2{
+	background-color: red;
+}
+a .tu3{
+	background-color: blue;
+	display: none;
+}
+a:hover .tu1{
+	display: block;
+}
+a:hover .tu2{
+	display: block;
+}
+a:hover .tu3{
+	display: block;
+}
+.yuan1:hover{
+	background-color: black;
+}
+.yuan2:hover {
+	background-color: green;
+}
+.yuan3:hover {
+	background-color: purple;
+}

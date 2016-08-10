@@ -1,0 +1,31 @@
+.div1{
+	text-align: center;
+}
+table{
+	margin: 0 auto;
+}
+td{
+	height: 23px;
+}
+.tr1{
+	height: 22px;
+}
+.tr2{
+	height: 52px;
+}
+.tr3{
+	height: 51px;
+}
+.tr4{
+	height: 70px;
+}
+.tr5{
+	height: 95px;
+}
+td{
+	font-size: 12px;
+	text-align: center;
+}
+.td{
+	background-color: #f2dbdb;
+}

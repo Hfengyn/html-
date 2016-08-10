@@ -1,0 +1,48 @@
+body{
+	background: gray;
+}
+
+.div6{
+	border: 5px solid yellow;
+	width: 100px;
+	height: 100px;
+	background: lightgreen;
+}
+
+.div5{
+	border: dashed 1px white;
+	width: 112px;
+	height: 112px;
+	padding: 40px;
+}
+
+.div4{
+	border: dashed 1px white;
+	width: 194px;
+	height: 194px;
+	padding: 5px;
+	margin: 25px auto;
+}
+
+.div3{
+	border: solid 1px pink;
+	width: 256px;
+	height: 256px;
+	margin: 24px auto;
+	background: pink;
+}
+
+.div2{
+	border: 5px lightblue solid;
+	width: 306px;
+	height: 306px;
+	margin: 51px auto;
+	background: lightgray;
+}
+
+.div1{
+	border: dashed 1px black;
+	width: 418px;
+	height: 418px;
+	margin: auto;
+}

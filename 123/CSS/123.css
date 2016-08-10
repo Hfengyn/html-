@@ -1,0 +1,44 @@
+
+.big{
+	width: 400px;
+	height: 200px;
+	background-color: lightgray;
+	position: relative;
+}
+
+a .right{
+	background-color: red;
+	width: 50px;
+	height: 20px;
+	position: absolute;
+	left: 340px;
+}
+a .left{
+	background-color: blue;
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: none;
+}
+
+a:hover .l1{
+	display: block;
+}
+a:hover .l2{
+	display: block;
+}
+a:hover .l3{
+	display: block;
+}
+
+a .r1{
+	top: 30px;
+}
+a .r2{
+	top: 80px;
+}
+a .r3{
+	top: 120px;
+}

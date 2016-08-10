@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>过滤</title>
+		<style type="text/css">
+			body{
+				background-color: lightgray;
+			}
+			div{
+				width: 352px;
+				height: 330px;
+				background-color: white;
+				padding: 15px;
+				text-align: center;
+				font-size: 30px;
+				transform: rotate(-10deg);
+				box-shadow: 4px 4px 4px #666;
+				float: left;
+			}
+			div img{
+				width: 100%;
+			}
+			.div1 img{
+				-webkit-filter: grayscale(1);
+			}
+			.div2 img{
+				-webkit-filter: sepia(0.5);
+			}
+			.div3 img{
+				-webkit-filter: hue-rotate(200deg);
+			}
+			.div4 img{
+				-webkit-filter: opacity(0.5);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div1">
+			<img src="dog.jpg">
+			<p>滤镜</p>
+		</div>
+		<div class="div2">
+			<img src="dog.jpg">
+			<p>滤镜</p>
+		</div>
+		<div class="div3">
+			<img src="dog.jpg">
+			<p>滤镜</p>
+		</div>
+		<div class="div4">
+			<img src="dog.jpg">
+			<p>滤镜</p>
+		</div>
+	</body>
+</html>

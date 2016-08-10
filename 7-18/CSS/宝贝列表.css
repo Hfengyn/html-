@@ -1,0 +1,226 @@
+body{
+	background: lightgray;
+}
+.maindiv{
+	width: 2046px;
+	height: 80px;
+	background: 1px solid gray;
+	background-color: #ffffff;
+}
+.sbgg{
+	float: left;
+	margin-top: -57px;
+	margin-left: 895px;
+	font-size: 28px;
+	color: gray;
+}
+.ydlb{
+	float: left;
+	margin-top: -57px;
+	margin-left: 1051px;
+	font-size: 28px;
+}
+.gengxin{
+	float: right;
+	margin-top: -82px;
+	margin-right: 133px;
+}
+.sousuo{
+	float: right;
+	margin-top: -82px;
+}
+.b1{
+	width: 114px;
+	height: 3px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	background-color: #cc6600;
+	margin-left: 1050px;
+	margin-top: -4px;
+}
+.r1{
+	margin-left: 672px;
+	margin-top: -670px;
+}
+.t1{
+	background: white;
+	border: 1px solid white;
+	width: 659px;
+	height: 649px;
+	float: left;
+	margin-top: 18px;
+	margin-left: 22px;
+}
+.c1{
+	clear: left;
+}
+.t2{
+	background: white;
+	border: 1px solid white;
+	width: 659px;
+	height: 649px;
+	float: left;
+	margin-top: 13px;
+	margin-left: 22px;
+}
+.s1{
+	margin-left: 21px;
+	margin-top: 20px;
+}
+.s2{
+	margin-left: 21px;
+	margin-top: 79px;
+}
+.s3{
+	color: lightgray;
+	font-size: 20px;
+	margin-top: -35px;
+	margin-left: 85px;
+}
+.s4{
+	color: lightgray;
+	margin-left: 592px;
+	font-size: 20px;
+	margin-top: -20px;
+}
+.fifth1{
+	margin-top: 80px;
+	font-size: 44px;
+}
+.fifth12{
+	font-size: 32px;
+	line-height: 50px;
+	margin-top: 50px;
+	color: lightgray;
+}
+.fifth11{
+	width: 36px;
+	height: 36px;
+	margin-left: 597px;
+	margin-top: -30px;
+}
+.sixth11{
+	margin-left: 20px;
+	margin-top: -168px;
+	font-size: 30px;
+}
+.main{
+	width: 2048px;
+	margin: 0 auto;
+}
+.top{
+	background: white;
+	border: 1px solid white;
+	width: 659px;
+	height: 649px;
+}
+.div1{
+	margin-top: 18px;
+	margin-left: 22px;
+}
+.div2{
+	margin-top: -651px;
+	margin-left: 694px;
+}
+.div3{
+	margin-top: 13px;
+	margin-left: 22px;
+}
+.top1{
+	width: 616px;
+	height: 406px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.top2{
+	margin-left: 20px;
+	margin-top: 18px;
+	font-size: 30px;
+}
+.first1{
+	background-image: url(../images/项链.png); 
+}
+.seand1{
+	background-image: url(../images/成衣.png); 
+}
+.third1{
+	background-image: url(../images/串珠.png); 
+}
+.furth1{
+	background-image: url(../images/衣架.png); 
+}
+.top3{
+	width: 48px;
+	height: 50px;
+	margin-top: 28px;
+	margin-left: 20px;
+}
+.first3{
+	background-image: url(../images/头像1.png);
+}
+.seand3{
+	background-image: url(../images/头像2.png);
+}
+.third3{
+	background-image: url(../images/头像3.png);
+}
+.furth3{
+	background-image: url(../images/头像4.png);
+}
+.top4{
+	color: lightgray;
+	font-size: 20px;
+	margin-top: -35px;
+	margin-left: 85px;
+}
+.top5{
+	color: lightgray;
+	margin-left: 592px;
+	font-size: 20px;
+	margin-top: -20px;
+}
+.top6{
+	width: 76px;
+	height: 37px;
+	border-radius: 19px;
+	background: lightgray;
+	border: 1px solid gray;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.top7{
+	margin-top: -39px;
+	margin-left: 125px;
+}
+.top8{
+	margin-top: -39px;
+	margin-left: 229px;
+}
+.top9{
+	font-size: 22px;
+	color: gray;
+	margin-top: -30px;
+	margin-left: 35px;
+}
+.top10{
+	margin-top: -22px;
+	margin-left: 143px;
+}
+.top11{
+	margin-top: -22px;
+	margin-left: 247px;
+}
+.top12{
+	width: 36px;
+	height: 36px;
+	background-image: url(../images/心.png);
+	margin-left: 597px;
+	margin-top: -30px;
+}
+.top12:hover{
+	background-image: url(../images/红心.png);
+}
+a{
+	text-decoration: none;
+	color: black;
+}

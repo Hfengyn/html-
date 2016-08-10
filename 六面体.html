@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>六面体</title>
+		<style type="text/css">
+			body{
+				background-color: black;
+			}
+			.eyes{
+				perspective: 2400px;
+				perspective-origin: 200px 200px;
+			}
+			.box{
+				width: 200px;
+				height: 200px;
+				background-color: red;
+				transform-style: preserve-3d;
+				transform: rotateX(0deg) rotateY(0deg); 
+				position: relative;
+				margin: 0 auto;
+				top: 40vh;
+				animation: move 10s linear infinite;
+			}
+			.box div{
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				font-size: 4em;
+				color: white;
+				text-align: center;
+				line-height: 200px;
+				opacity: 0.3;
+				transition: transform 1s;
+			}
+			
+			div .div1{
+				background-color: red;
+				transform: translateZ(100px);
+
+			}
+			div .div2{
+				background-color: blue;
+				transform: rotateX(90deg) translateZ(100px);
+			}
+			div .div3{
+				background-color: green;
+				transform: rotateY(90deg) translateZ(100px);
+			}
+			div .div4{
+				background-color: cyan;
+				transform: rotateY(90deg) translateZ(-100px);
+			}
+			div .div5{
+				background-color: purple;
+				transform: rotateX(90deg) translateZ(-100px);
+			}
+			div .div6{
+				background-color: yellow;
+				transform: translateZ(-100px);
+			}
+			@keyframes move{
+				from{
+					transform: rotateX(0deg) rotateY(0deg);
+				}
+				to{
+					transform: rotateY(1440deg) rotateX(1440deg);
+				}
+			}
+			.box:hover .div1{
+				transform: scale(2,2) translateZ(300px);
+				background-color: red;
+			}
+			.box:hover .div2{
+				transform: rotateX(90deg) translateZ(300px) scale(2,2);
+				background-color: blue;
+			}
+			.box:hover .div3{
+				transform: rotateY(90deg) translateZ(300px) scale(2,2);
+				background-color: green;
+			}
+			.box:hover .div4{
+				transform: rotateY(90deg) translateZ(-300px) scale(2,2);
+				background-color: cyan;
+			}
+			.box:hover .div5{
+				transform: rotateX(90deg) translateZ(-300px) scale(2,2);
+				background-color: purple;
+			}
+			.box:hover .div6{
+				transform: scale(2,2) translateZ(-300px);
+				background-color: yellow;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="eyes">
+			<div class="box">
+				<div class="div1">1</div>
+				<div class="div2">2</div>
+				<div class="div3">3</div>
+				<div class="div4">4</div>
+				<div class="div5">5</div>
+				<div class="div6">6</div>
+			</div>
+		</div>
+	</body>
+</html>

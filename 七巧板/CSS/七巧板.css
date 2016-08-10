@@ -1,0 +1,88 @@
+.main{
+	width: 500px;
+	height: 500px;
+	background-color: lightgray;
+	padding: 20px;
+	position: relative;
+}
+.div1{
+	width: 0px;
+	height: 0px;
+	border: 250px solid transparent;
+	border-top-color: red;
+	position: absolute;
+}
+.div2{
+	width: 0px;
+	height: 0px;
+	border: 250px solid transparent;
+	border-right-color: green;
+	position: absolute;
+}
+.div3{
+	width: 0px;
+	height: 0px;
+	border: 125px solid transparent;
+	border-left-color: blue;
+	position: absolute;
+}
+.div4{
+	width: 0px;
+	height: 0px;
+	border: 125px solid transparent;
+	border-right-color: blue;
+	position: absolute;
+	top: 144px;
+	left: -105px;
+}
+.div5{
+	width: 0px;
+	height: 0px;
+	border: 125px solid transparent;
+	border-left-color: lightblue;
+	position: absolute;
+	left: 145px;
+	top: 145px;
+}
+.div6{
+	width: 0px;
+	height: 0px;
+	border: 125px solid transparent;
+	border-left-color: yellow;
+	position: absolute;
+	top: 270px;
+	left: 270px;
+}
+.div7{
+	width: 0px;
+	height: 0px;
+	border: 125px solid transparent;
+	border-right-color: yellow;
+	position: absolute;
+	top: 270px;
+}
+.div8{
+	width: 0px;
+	height: 0px;
+	border: 125px solid transparent;
+	border-bottom-color: pink;
+	position: absolute;
+	top: 270px;
+	left: 270px;
+}
+.div9{
+	width: 0px;
+	height: 0px;
+	border: 125px solid transparent;
+	border-left-color: orange;
+	position: absolute;
+	top: 270px;
+}
+.div10{
+	width: 0px;
+	height: 0px;
+	border: 125px solid transparent;
+	border-bottom-color: orange;
+	position: absolute;
+	top: 270px;
+}

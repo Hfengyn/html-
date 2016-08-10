@@ -1,0 +1,83 @@
+.eyes{
+	perspective: 2400px;
+	perspective-origin: 0px 0px;
+}
+.box{
+	transform-style: preserve-3d;
+	width: 600px;
+	height: 800px;
+	/*background-color: lightgray;*/
+	transform: rotateX(0deg) rotateY(0deg);
+
+}
+.box div{
+	width: 100px;
+	height: 100px;
+	/*background-color: red;*/
+	position: absolute;
+	top: 20px;
+	left: 250px;
+}
+.div1{
+	background-color: red;
+	transform: rotateY(0deg) translateZ(250px);
+}
+.div2{
+	background-color: blue;
+	transform: rotateY(30deg) translateZ(250px);
+}
+.div3{
+	background-color: yellow;
+	transform: rotateY(60deg) translateZ(250px);
+}
+.div4{
+	background-color: green;
+	transform: rotateY(90deg) translateZ(250px);
+}
+.div5{
+	background-color: purple;
+	transform: rotateY(120deg) translateZ(250px);
+}
+.div6{
+	background-color: orange;
+	transform: rotateY(150deg) translateZ(250px);
+}
+.div7{
+	background-color: black;
+	transform: rotateY(180deg) translateZ(250px);
+}
+.div8{
+	background-color: pink;
+	transform: rotateY(210deg) translateZ(250px);
+}
+.div9{
+	background-color: gray;
+	transform: rotateY(240deg) translateZ(250px);
+}
+.div10{
+	background-color: tan;
+	transform: rotateY(270deg) translateZ(250px);
+}
+.div11{
+	background-color: plum;
+	transform: rotateY(300deg) translateZ(250px);
+}
+.div12{
+	background-color: lightgray;
+	transform: rotateY(330deg) translateZ(250px);
+}
+/*.div12{
+	background-color: lightblue;
+	transform: rotateY(360deg) translateZ(250px);
+}*/
+@keyframes move{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(720deg);
+	}
+}
+.box{
+	animation: move 15s infinite;
+}

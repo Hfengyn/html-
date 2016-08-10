@@ -1,0 +1,18 @@
+body{
+	background: gray;
+}
+
+.span1{
+	margin-left: 50px; 
+	background: blue;
+}
+
+.span2{
+	padding-left: 100px;
+	background: red;
+}
+
+.span3{
+	margin-left: -150px;
+	background: yellow;
+}

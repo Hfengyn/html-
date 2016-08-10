@@ -1,0 +1,30 @@
+body{
+	background: gray;
+}
+.div1{
+	border: dashed 1px black;
+	width: 498px;
+	height: 498px;
+	padding: 50px;
+	margin: auto;
+}
+.div2{
+	width: 408px;
+	height: 408px;
+	background: lightgray;
+	border: solid 5px lightblue;
+	padding: 40px;
+}
+.div3{
+	width: 286px;
+	height: 286px;
+	background: pink;
+	border: solid 1px pink;
+	padding: 60px;
+}
+.div4{
+	width: 274px;
+	height: 274px;
+	border: white 1px dashed;
+	padding: 5px;
+}

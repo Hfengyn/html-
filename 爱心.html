@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>爱心</title>
+		<style type="text/css">
+			div img{
+				position: absolute;
+				z-index: -1px;
+				margin: auto;
+			}
+			div span{
+				position: absolute;
+				font-size: 13em;
+				color: red;
+			}
+			div span:nth-child(2){
+				top: 160px;
+				left: 140px;
+				animation: zu 2s linear 0.2s;
+			}
+			div span:nth-child(3){
+				top: 160px;
+				left: 650px;
+				animation: jing 2s linear 0.2s;
+			}
+			div span:nth-child(4){
+				top: 300px;
+				left: 370px;
+				font-size: 17em;
+				animation: lin 2s linear 0.2s;
+			}
+			@keyframes lin{
+				from{
+					transform: scale(3,3) rotateZ(0deg);
+				}
+				to{
+					transform: scale(1,1) rotateZ(720deg);
+				}
+			}
+			@keyframes zu{
+				from{
+					transform: scale(2,2) rotateZ(0deg);
+				}
+				to{
+					transform: scale(1,1) rotateZ(720deg);
+				}
+			}
+			@keyframes jing{
+				from{
+					transform: scale(2,2) rotateZ(0deg);
+				}
+				to{
+					transform: scale(1,1) rotateZ(720deg);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<img src="爱心.jpg">
+			<span>祖</span>
+			<span>静</span>
+			<span>林</span>
+		</div>
+	</body>
+</html>
